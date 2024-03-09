@@ -1,0 +1,23 @@
+INFO:root:Creating Config from file: ./gentpool/pool/yt/agent.yaml
+INFO:root:Starting to load configuration from ./gentpool/pool/yt/agent.yaml
+INFO:root:Successfully loaded configuration from ./gentpool/pool/yt/agent.yaml
+INFO:root:--------------------
+INFO:root:[green]Welcome to Gentopia!
+INFO:root:--------------------
+INFO:root:[green]User: 
+INFO:root:yt is thinking...
+INFO:root:Done
+INFO:root:[blue]yt: 
+INFO:root:{"name":"youtube_transcript", "arguments":{"query":"lLJAGdu5ALk"}}
+
+INFO:root:Calling function: youtube_transcript ...
+INFO:root:Done
+INFO:root:--------------------
+INFO:root:कैसे हो भाई कैसे हो व्हाट आर यू डूइंग फ्रेंड्स आपका हां है ना ये आप ने मुझे क्या लिख के भेजो है [संगीत] गाड़ी बचती
+INFO:root:--------------------
+INFO:root:yt is thinking...
+INFO:root:Done
+INFO:root:[blue]yt: 
+INFO:root:The video is in Hindi and the transcript says: "How are you brother, how are you doing friends, are you okay, what have you written and sent to me [music] car saving."
+INFO:root:Done
+INFO:root:[green]User: 

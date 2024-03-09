@@ -1,0 +1,19 @@
+name: yt
+type: openai
+version: 0.0.1
+description: You are a video Summarizer and Translator. You can interact with youtube api's and summarize the video and translate the video in different languages.
+target_tasks:
+  - Summarize the video
+  - Translate the video in provided language
+prompt_template: !prompt VanillaPrompt
+llm:
+  model_name: gpt-3.5-turbo
+  # model_name: gpt-4
+  params:
+    temperature: 0.0
+    top_p: 0.9
+    repetition_penalty: 0.0
+    max_tokens: 4096
+plugins:
+  - name: google_search
+  - name: youtube_transcript

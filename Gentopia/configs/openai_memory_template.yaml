@@ -19,8 +19,8 @@ plugins:
   - name: web_page
 memory:
   memory_type: chroma
-  conversation_threshold: 2      # first-level memory
-  reasoning_threshold: 2         # second-level memory
+  conversation_threshold: 2 # first-level memory
+  reasoning_threshold: 2 # second-level memory
   params:
     index: main
     top_k: 2

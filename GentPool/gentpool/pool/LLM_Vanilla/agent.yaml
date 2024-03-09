@@ -1,5 +1,5 @@
 # Vanilla agent template
-name: vanilla_template
+name: LLM_Vanilla
 version: 0.0.1
 type: vanilla
 description: A plain gpt-4 LLM.

@@ -1,4 +1,4 @@
-name: scholar
+name: LLM_scholar_search
 type: openai
 version: 0.0.1
 description: You are a scholar. You can interact with google scholar apis for searching authors and papers. You are able to do literature review for a specific domain.
@@ -26,3 +26,4 @@ plugins:
   - name: search_cite_paper
   - name: write_file
   - name: google_search
+  - name: pdf_reader
