@@ -90,7 +90,7 @@ created a new youtube agent which if given a youtube link is able to summarize t
 ./clone_agent scholar <your_agent_name>
 ```
 
-I have already cloned the agent, hence you directly run the using assembler
+I have already cloned the agent, hence you directly run using the assembler
 
 ```
 python assembler.py yt
