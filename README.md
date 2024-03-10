@@ -99,3 +99,4 @@ python assembler.py yt
 ```
 Example prompt : can you summarize video https://www.youtube.com/watch?v=amJn9BFnbVE
 ```
+![Screenshot 2024-03-09 at 6 25 30 PM](https://github.com/mpremashish/Gentopia-Mason/assets/23220565/a43ad735-5dfc-4e8c-abca-6ed6ab02583b)
