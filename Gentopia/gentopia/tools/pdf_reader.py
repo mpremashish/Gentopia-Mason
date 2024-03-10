@@ -24,7 +24,7 @@ class PdfReader(BaseTool):
         remote_file = urllib.request.urlopen(req).read()
         remote_file_bytes = io.BytesIO(remote_file)
         pdfdoc_remote = PyPDF2.PdfReader(remote_file_bytes)
-        return " ".join(pdfdoc_remote.pages[i].extract_text() for i in range(len(pdfdoc_remote.pages)))
+        return "\n\n".join(pdfdoc_remote.pages[i].extract_text() for i in range(len(pdfdoc_remote.pages)))
 
     async def _arun(self, *args: Any, **kwargs: Any) -> Any:
         raise NotImplementedError
